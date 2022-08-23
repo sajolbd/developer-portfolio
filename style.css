@@ -1,0 +1,27 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 5%;
+}
+
+#name{
+    color: rgb(250, 105, 20);
+}
+
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+.link-khoj{
+    text-decoration: none;
+    color: black;
+    font-weight: 700px;
+    background-image: linear-gradient(orange,yellow);
+    padding: 5px 15px;
+}
