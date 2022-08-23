@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 5%;
+    margin: 0;
 }
 
 #name{
@@ -9,6 +9,12 @@ body{
 
 section{
     display: flex;
+}
+.left-side-home{
+    margin-left: 30px;
+}
+.left-side-home h1{
+    font-size: 50px;
 }
 .half-width{
     width: 50%;
@@ -24,4 +30,8 @@ section{
     font-weight: 700px;
     background-image: linear-gradient(orange,yellow);
     padding: 5px 15px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
