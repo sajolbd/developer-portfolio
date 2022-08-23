@@ -1,37 +1,78 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
-#name{
-    color: rgb(250, 105, 20);
+#name {
+  color: rgb(250, 105, 20);
 }
 
-section{
-    display: flex;
+.container {
+  display: flex;
+  height: 670px;
 }
-.left-side-home{
-    margin-left: 30px;
+.left-side-home {
+  margin-left: 30px;
 }
-.left-side-home h1{
-    font-size: 50px;
+.left-side-home h1 {
+  font-size: 50px;
 }
-.half-width{
-    width: 50%;
-    padding: 5%;
+.half-width {
+  width: 50%;
+  padding: 5%;
 }
 
 .half-width img {
-    width: 80%;
+  width: 80%;
 }
-.link-khoj{
-    text-decoration: none;
-    color: black;
-    font-weight: 700px;
-    background-image: linear-gradient(orange,yellow);
-    padding: 5px 15px;
+.link-khoj {
+  text-decoration: none;
+  color: black;
+  font-weight: 700px;
+  background-image: linear-gradient(orange, yellow);
+  padding: 5px 15px;
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+#exp-title {
+  font-size: 50px;
+}
+.exp-section {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+.experience {
+  margin: 60px;
+  display: flex;
+}
+.exp {
+  box-shadow: 10px 10px 20px gray;
+  width: 500px;
+  height: 390px;
+  padding: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.exp h1 {
+  font-size: 50px;
+  color: orange;
+}
+
+.exp h3 {
+  font-size: 30px;
+}
+
+#exp-border-left {
+  border-left: 6px solid;
+  border-image: linear-gradient(orange, yellow);
+  border-image-slice: 21;
+}
+#exp-border-right{
+    border-left: 6px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 21;
 }
